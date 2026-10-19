@@ -1,0 +1,43 @@
+# Local sensor recordings and datasets
+*.csv
+*.xlsx
+*.xls
+*.parquet
+data/
+dataset/
+datasets/
+recordings/
+raw_data/
+original_unchanged/
+quarantine_for_review/
+
+# Model artifacts and experiment outputs
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.tflite
+*.h5
+*.pt
+*.pth
+activity_model.h
+trained_model/
+experimental_candidate/
+reports/
+results/
+
+# Local development
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*token*
